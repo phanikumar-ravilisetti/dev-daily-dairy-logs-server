@@ -21,7 +21,8 @@ app.use(cors({
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb+srv://phanikumar-r:doEbYtbtbso9%409Cx@phanimongo.c1uyt05.mongodb.net/mydb");
+    await mongoose.connect("mongodb://127.0.0.1:27017/mydb");
+
     console.log("MongoDB Connected");
 
     app.listen(PORT, () => {
