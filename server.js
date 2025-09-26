@@ -21,7 +21,7 @@ app.use(cors({
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGO_URI)
+     await mongoose.connect("mongodb+srv://phanikumar-r:doEbYtbtbso9%409Cx@phanimongo.c1uyt05.mongodb.net/mydb");
 
 
     console.log("MongoDB Connected");
