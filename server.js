@@ -16,7 +16,7 @@ const authMiddleware = require('./middleware/authMiddleware');
 app.use(express.json());
 
 app.use(cors({
-    origin: "https://dev-daily-dairy-logs-git-46aa8a-phani-kumars-projects-8369ff60.vercel.app"
+    origin: "https://dev-daily-dairy-logs-client-4si7.vercel.app/"
 }))
 
 const connectDB = async () => {
